@@ -1,0 +1,36 @@
+body{ /* Define a cor do texto e o fundo da página */
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.container{ /* Estiliza o contêiner com padding nas laterais */
+    padding: 0px 50px;
+}
+
+
+.center{ /* class center para centrar conteúdo*/
+    text-align: center;
+}
+
+header img{ /* Estiliza imagem do cabeçalho */
+    border-radius: 100%;
+    border: 5px solid rgb(90, 194, 90);
+}
+
+main h1{ /* Estiliza h1 do main */
+    color: green;
+}
+
+.botao { /* Estiliza o botão que volta a pagina inicial */
+    width: 100px;
+    display: flex; 
+    gap: 2em;
+    padding: 15px;
+    background-color:#232323;
+    color: #fff;
+    text-decoration:none;
+    margin: 25px 0 30px;
+    border: 3px solid green;
+}

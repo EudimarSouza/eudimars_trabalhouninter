@@ -1,0 +1,41 @@
+body{ /* Define a cor do texto e o fundo da página */
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+ul{ /*estiiza a lista nao ordenada*/
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a{ /* Muda a cor do link no menu de navegação ao passar o mouse */
+    color: white;
+    text-decoration: none;
+}
+
+header img{ /* Estiliza imagem do cabeçalho */
+    width: 8%;
+    border-radius: 40%;
+    border: 5px solid rgb(90, 194, 90);
+}
+
+.center{ /* class center para centrar conteúdo*/
+    text-align: center;
+}
+
+.container{ /* Estiliza o contêiner com padding nas laterais */
+    padding: 0px 50px;
+}
+
+nav a:hover{ /* Muda a cor do link no menu de navegação ao passar o mouse */
+    color: green;
+}
+
+nav { /* Muda a cor do menu de navegação ao passar o mouse */
+    background-color: rgb(11, 10, 10);
+}
